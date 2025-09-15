@@ -5,7 +5,7 @@ import google.generativeai as genai
 import json
 import re
 #set up your Gemini api key 
-genai.configure(api_key="AIzaSyD95XuEcHRwF4lAWgn6oSx4FJVlIgPpfbs")
+genai.configure(api_key="Your_Gemini_Apikey")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -108,3 +108,4 @@ if uploaded_file is not None:
             mime="application/json",
             data=json_str
         )
+
