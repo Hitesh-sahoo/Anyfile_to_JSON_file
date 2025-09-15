@@ -1,1 +1,6 @@
+# Based on your code, the required libraries are:
+streamlit
+pdfplumber
+python-docx
+google-generativeai
 
